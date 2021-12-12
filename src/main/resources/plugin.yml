@@ -1,7 +1,9 @@
-name: ${pluginName}
+name: tracker
 version: ${version}
-main: ${group}.${packageName}.plugin.${pluginName}Plugin
+main: xyz.r2turntrue.tracker.plugin.TrackerPlugin
 api-version: 1.17
 libraries:
   - org.jetbrains.kotlin:kotlin-stdlib:1.5.21
   - org.jetbrains.kotlin:kotlin-reflect:1.5.21
+  - io.github.monun:kommand:2.8.0
+  - io.github.monun:kommand-api:2.8.0
